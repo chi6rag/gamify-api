@@ -45,6 +45,12 @@ body {
 .navbar .dropdown-menu > li[role="separator"].divider{
 	padding: 0px;
 }
+
+.navbar .dropdown-menu > li .glyphicon > span {
+	font-family: 'Lato', sans-serif;
+	padding-left: 1em;
+	position: relative; bottom: 0.1em;
+}
 /* /navbar */
 
 /* sidebar */
@@ -90,6 +96,7 @@ body {
 .sidebar-user-info .sidebar-user-name {
   position: relative;
   bottom: 0.1em;
+  font-family: 'Lato', sans-serif;
 }
 
 .sidebar-user-info .glyphicon.glyphicon-heart {
@@ -140,7 +147,6 @@ hr {
 	min-height: 15vh;
 	background-color: #657982;
 	opacity: 0.8;
-	border: 2px solid white;
 	padding: 3em;
 	padding-bottom: 2.5em;
   padding-top: 2.5em;
@@ -172,7 +178,6 @@ hr {
 	min-height: 15vh;
 	background-color: #FFF;
 	opacity: 0.8;
-	border: 2px solid #657982;
 	padding: 3em;
 	padding-bottom: 2.5em;
   padding-top: 2.5em;
